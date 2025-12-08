@@ -1,4 +1,4 @@
-export const projectsData = {
+export const ProjectData = {
     coding: [
         {
             id: 1,
@@ -8,7 +8,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
         {
             id: 2,
@@ -18,7 +18,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
     ], 
     teaching: [
@@ -30,7 +30,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
         {
             id: 2,
@@ -40,7 +40,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
     ], 
     events: [
@@ -52,7 +52,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
         {
             id: 2,
@@ -62,7 +62,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
     ], 
     research: [
@@ -74,7 +74,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
         {
             id: 2,
@@ -84,7 +84,7 @@ export const projectsData = {
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/assets/placeholder.jpeg"
+            coverImage: "/placeholder.jpg"
         },
     ]
 }
