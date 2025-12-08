@@ -1,0 +1,37 @@
+:root {
+  --default-red: #f05b5b;
+  --default-yellow: #ffde5b;
+  --default-green: #b7e169;
+  --default-blue: #69cbe5;
+  --default-dark: #2f2b45;
+  --default-light: #fffdf9;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-links {
+  list-style: none;
+  margin: 0; /*is this necessary idk*/
+  padding: 0; /*is this necessary idk*/
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.navigation-links li a {
+  color: var(--default-dark);
+  text-decoration: none;
+  font-size: 1.1rem;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation-links li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
