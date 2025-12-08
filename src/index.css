@@ -5,6 +5,7 @@
 	--default-blue: #69cbe5;
 	--default-dark: #2f2b45;
 	--default-light: #fffdf9;
+	--s: 10px;
 }
 
 /* NAVIGATION BAR STUFF */
@@ -29,7 +30,7 @@ nav {
 	color: var(--default-dark);
 	text-decoration: none;
 	font-size: 2rem;
-	opacity: 0.5;
+	opacity: 0.75;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -97,9 +98,63 @@ nav {
 	font-style: italic;
 }
 
+
+/* HOMEPAGE: HERO SECTION */
+.hero-section {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 70vw;
+	margin: 0 auto;
+}
+
+.hero-section h1 {
+	font-size: 30vh;
+	align-self: center;
+	line-height: 0;
+}
+
+.hero-section h3 {
+	font-size: xxx-large;
+}
+
+.hero-subtext {
+	align-self: flex-start;
+}
+
+.hero-tagline {
+	align-self: flex-end;
+	font-style: italic;
+}
+
 /* HOMEPAGE: INFO SECTION */
+.info-section {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
 .info-cards {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
+}
+
+.photobooth {
+	display: flex;
+	flex-direction: column;
+	width: calc(var(--s)*20);
+	margin-left: 100%;
+}
+
+.photobooth img {
+	margin: 0;
+	height: calc(20*var(--s));
+	background: conic-gradient(at var(--s) 50%, #222 75%, #0000 0) 0 0 / calc(100% - var(--s)) calc(2*var(--s)) padding-box;
+	border: var(--s) solid #222;
+	padding: calc(var(--s) * 1.5) calc(var(--s) * 2.5);
+	margin-bottom: calc(-1*var(--s));
+	aspect-ratio: 1;
+	object-fit: cover;
 }

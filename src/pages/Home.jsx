@@ -8,10 +8,10 @@ const Home = () => {
 			<div className="hero-section">
 				<h3 className="hero-subtext">Hi, I'm...</h3>
 				<h1 className="hero-text">J🥠Y SU</h1>
-				<h3 className="hero-subtext"><i>tagline will go here</i></h3>
+				<h3 className="hero-tagline"><i>tagline will go here</i></h3>
 			</div>
 			<div className="info-section">
-				<div className="info">
+				<div className="info-text">
 					<p>I’m a  coder, organizer, and advocate with an interest in making things happen.</p>
 					<p>My biggest strength is identifying problems and doing something about them. That drive has let me make technical projects…</p>
 					<div className="info-cards">
@@ -24,8 +24,13 @@ const Home = () => {
 						<ProjectCard project={ProjectData.teaching[0]}/>
 					</div>
 				</div>
-				<div className="info-illustrations">
-					<div className="film-strip"></div>
+				<div className="info-graphics">
+					<div className="photobooth">
+						<img src="/placeholder.jpg"/>
+						<img src="/placeholder.jpg"/>
+						<img src="/placeholder.jpg"/>
+						<img src="/placeholder.jpg"/>
+					</div>
 				</div>
 			</div>
 			<div className="footer-section">
