@@ -20,8 +20,8 @@ const Home = () => {
 					</div>
 					<p>And organize huge events.</p>
 					<div className="info-cards">
-						{/* <ProjectCard project={ProjectData.events[0]}/>
-						<ProjectCard project={ProjectData.teaching[0]}/> */}
+						<ProjectCard project={ProjectData.events[0]}/>
+						<ProjectCard project={ProjectData.teaching[0]}/>
 					</div>
 				</div>
 				<div className="info-illustrations">

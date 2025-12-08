@@ -54,7 +54,6 @@ nav {
 
 .project-card-header {
 	height: 75px; /* stolen from figma file, 75px */
-	background-color: var(--default-blue);
 	color: var(--default-light);
 	display: flex;
 	flex-direction: column;
@@ -65,6 +64,22 @@ nav {
 .project-card-header h1 {
 	margin-top: 0;
 	margin-bottom: -0.25rem;
+}
+
+.project-card-header.coding {
+	background-color: var(--default-red);
+}
+
+.project-card-header.teaching {
+	background-color: var(--default-yellow);
+}
+
+.project-card-header.events {
+	background-color: var(--default-green);
+}
+
+.project-card-header.research {
+	background-color: var(--default-blue);
 }
 
 .project-card-content {
