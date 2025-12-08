@@ -4,7 +4,7 @@ export const ProjectData = {
             id: 1,
             title: "coding project title 1",
             category: "coding",
-            shortDescription: "this is the short description here",
+            shortDescription: "this is the short description here. I'm just adding extra text so I can see what it looks like when it's longer.",
             fullDescription: "this is the loooooooooong description",
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),

@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'ZT Formom';
+	src: url('/ZT Formom.woff2');
+}
+
 :root {
 	--default-red: #f05b5b;
 	--default-yellow: #ffde5b;
@@ -6,10 +11,16 @@
 	--default-dark: #2f2b45;
 	--default-light: #fffdf9;
 	--s: 10px;
+	background-color: var(--default-light);
+}
+
+body {
+	font-family: 'ZT Formom', 'Arial', sans-serif;
+	color: var(--default-dark);
+	font-size: 1.5rem;
 }
 
 /* NAVIGATION BAR STUFF */
-
 nav {
 	width: 100%;
 	display: flex;
@@ -47,6 +58,8 @@ nav {
 	box-shadow: 0.25rem 0.25rem 0.5rem var(--default-dark);
 	transition: 0.3s all;
 	max-width: 20vw;
+	line-height: normal;
+	margin-bottom: auto;
 }
 
 .project-card:hover {
@@ -60,6 +73,7 @@ nav {
 	flex-direction: column;
 	justify-content: center;
 	padding: 0 1rem;
+	font-size: 1rem;
 }
 
 .project-card-header h1 {
@@ -85,6 +99,13 @@ nav {
 
 .project-card-content {
 	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.75rem;
+}
+
+.project-card-content > * {
+	margin: 0.5rem 0;
 }
 
 .project-card img {
@@ -101,7 +122,7 @@ nav {
 
 /* HOMEPAGE: HERO SECTION */
 .hero-section {
-	height: 80vh;
+	height: 75vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -112,15 +133,19 @@ nav {
 .hero-section h1 {
 	font-size: 30vh;
 	align-self: center;
-	line-height: 0;
+	line-height: 0rem;
+	font-weight: normal;
 }
 
 .hero-section h3 {
 	font-size: xxx-large;
+	font-weight: normal;
+	line-height: 0rem;
 }
 
 .hero-subtext {
 	align-self: flex-start;
+	font-weight: normal;
 }
 
 .hero-tagline {
@@ -132,7 +157,9 @@ nav {
 .info-section {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: auto;
+	padding: 5rem;
+	gap: 2rem;
 }
 
 .info-cards {
@@ -145,14 +172,14 @@ nav {
 	display: flex;
 	flex-direction: column;
 	width: calc(var(--s)*20);
-	margin-left: 100%;
+	margin-left: auto;
 }
 
 .photobooth img {
 	margin: 0;
 	height: calc(20*var(--s));
-	background: conic-gradient(at var(--s) 50%, #222 75%, #0000 0) 0 0 / calc(100% - var(--s)) calc(2*var(--s)) padding-box;
-	border: var(--s) solid #222;
+	background: conic-gradient(at var(--s) 50%, var(--default-dark) 75%, #0000 0) 0 0 / calc(100% - var(--s)) calc(2*var(--s)) padding-box;
+	border: var(--s) solid var(--default-dark);
 	padding: calc(var(--s) * 1.5) calc(var(--s) * 2.5);
 	margin-bottom: calc(-1*var(--s));
 	aspect-ratio: 1;

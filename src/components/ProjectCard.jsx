@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
       <div className="project-card-content">
         <p>{project.shortDescription}</p>
         <img src={project.coverImage}/>
-        <p className="project-card-date">{project.startDate.toDateString() + " - " + project.endDate.toDateString()}</p>
+        <p className="project-card-date">{project.startDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'}) + " - " + project.endDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'})}</p>
       </div>
     </div>
   );
