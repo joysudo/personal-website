@@ -6,17 +6,21 @@ const Projects = () => {
   const categories = ['all', 'coding', 'teaching', 'events', 'research']
 	const [activeCategory, setActiveCategory] = useState('all');
 	return (
-		<>
+		<div className="projects-page">
 			<h1>this is the projects page</h1>
-			{categories.map((category) => 
-				<button className={`category-select ${category}`} onClick={() => setActiveCategory(category)}>{category}</button>
-			)}
-			{activeCategory === 'all' ? Object.values(ProjectData).flat().map((object) => 
-					<ProjectCard project={object}/>
-				) : ProjectData[activeCategory].map((object) => 
-					<ProjectCard project={object}/>
-			)}
-		</>
+			<div className="category-select-container">
+				{categories.map((category) => 
+					<button className={`category-select ${category} ${category === activeCategory ? 'active' : ''}`} onClick={() => setActiveCategory(category)}>{category}</button>
+				)}
+			</div>
+			<div className="projects-container">
+				{activeCategory === 'all' ? Object.values(ProjectData).flat().map((object) => 
+						<ProjectCard project={object}/>
+					) : ProjectData[activeCategory].map((object) => 
+						<ProjectCard project={object}/>
+				)}
+			</div>
+		</div>
 	);
 };
 
