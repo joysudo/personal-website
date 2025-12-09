@@ -3,7 +3,7 @@ export const ProjectData = {
         {
             title: "Joy's Personal Website",
             category: "coding",
-            shortDescription: "this is the short description here. I'm just adding extra text so I can see what it looks like when it's longer.",
+            shortDescription: "Personal site built in React.",
             fullDescription: [
                 "I initially made this website in order to get free fudge. But it's also something I've been wanting to do for a while (if you search 'resume' in my files, you'll find 30 copies of the same CV). Just for my own reference, I thought it would be fun to have a database of most of the projects I've done.", 
                 "This thing is built in React—really a pretty straightforward process! It took me around eight hours of coding, according to Hackatime, and I'd estimate one hour on Figma. Would recommend for any other students during a rainy day off school."
@@ -15,7 +15,7 @@ export const ProjectData = {
         {
             title: "Cattatime",
             category: "coding",
-            shortDescription: "this is the short description here",
+            shortDescription: "Virtual pet app with coding tracker.",
             fullDescription: [
                 "I helped make Cattatime at a <b>Parthenon</b>: the largest all-girls high school hackathon in the world . I met my teammates (Kat and Kaylee!) after a chaotic few hours of navigating transit with a carry-on.",
                 "The app itself is a virtual pet. You can get coins to buy your cat accessories by tracking coding hours in <b>Hackatime</b>.",
@@ -29,7 +29,7 @@ export const ProjectData = {
         {
             title: "Logic Lab",
             category: "coding",
-            shortDescription: "this is the short description here",
+            shortDescription: "E-learning platform for logical fallacies.",
             fullDescription: [
                 "Logic Lab is an e-learning platform that teaches users to <b>identify logical fallacies</b>. Think of it like Duolingo for media literacy.", 
                 "Logic Lab was initially an entry for the Congressional App Challenge. I made a pact with my friend, Tanisha Sajjan, over the summer. She would develop a Chrome extension, using AI to highlight fallacies as users browsed. I would build the site.",
@@ -42,7 +42,7 @@ export const ProjectData = {
         {
             title: "Unburnt Books",
             category: "coding",
-            shortDescription: "this is the short description here",
+            shortDescription: "Banned book recommender and resource.",
             fullDescription: [
                 "I joined <b>Kode With Klossy</b>'s web development program because my little sister told me she required me for moral support. This was really not a course made for me, as someone already familiar with <b>HTML</b>, <b>CSS</b>, and <b>JS</b>.",
                 "But I loved getting to meet the people in my group, and it was nice having dedicated time to work on a project every day. As a final project, I helped make <b>Unburnt Books</b>. While the UI (sans navigation bar) was mostly designed by my teammates, I did handle the <b>recommender</b>, which fetches data from a collection of banned books I scraped the internet for. And my sister made a website she was proud of—which is all I can really ask for.",
@@ -56,7 +56,7 @@ export const ProjectData = {
         {
             title: "John Deere Tech Mentorship",
             category: "coding",
-            shortDescription: "this is the short description here",
+            shortDescription: "Shadowing SWEs and practicing Python.",
             fullDescription: [
                 "In a very Iowa fashion, one of the first formal computer science programs I was ever accepted into was a six-month mentorship program at John Deere.",
                 "Tragically, I never got to ride a tractor. But I did get to shadow software engineers, study recursion in Python, and meet some pretty awesome people. I also took the opportunity to build a lot of mini games. The more practice the better, right?",
@@ -71,7 +71,7 @@ export const ProjectData = {
         {
             title: "Pi515: Middle School Programs",
             category: "teaching",
-            shortDescription: "this is the short description here",
+            shortDescription: "Afterschool coding program in three middle schools.",
             fullDescription: [
                 "I worked with Pi515, a nonprofit in the Des Moines area. There, we created a coding curriculum (that we piloted in three middle schools!). For months, we prepped before entering schools, where I was lucky enough to be able to instruct.",
                 "I miss these kids unbelievably. If you were at a middle school I taught—reach out anytime."
@@ -83,7 +83,7 @@ export const ProjectData = {
         {
             title: "Sucrates: African American Studies Videos",
             category: "teaching",
-            shortDescription: "this is the short description here",
+            shortDescription: "Free educational content for African American Studies.",
             fullDescription: [
                 "I started making videos for African American Studies for my friends. I didn't expect that I would be asked by other African American Studies students to make more videos for the next three months straight.", 
                 "Now, I'm in the middle of an accidental YouTuber arc. I'm also realizing that no one knows that 'Sucrates' is a pun. You know Socrates? <i>Su</i>-crates? My last name? I'm not just really into crates, I promise.",
@@ -96,7 +96,7 @@ export const ProjectData = {
         {
             title: "Girls Who Code Student Leadership Council",
             category: "teaching",
-            shortDescription: "this is the short description here",
+            shortDescription: "Designed new mentorship program for women in STEM.",
             fullDescription: [
                 "I was lucky enough to be selected for the inaugural year of Girls Who Code's Student Leadership Council, serving over 760,000 girls around the world. Together, around ~20 girls from all over worked to design a new mentorship program for women in STEM, eventually presenting our proposal to the GWC programs department.",
                 "The reason this works? There are a few key dropoffs in female stem engagement (one in early education, with big ones also happening in college/early career). The issue is often a confidence gap, not an <i>ability</i> gap."
@@ -108,7 +108,7 @@ export const ProjectData = {
         {
             title: "Research Paper Editing Services",
             category: "teaching",
-            shortDescription: "this is the short description here",
+            shortDescription: "Editing research papers for PhD candidates.",
             fullDescription: [
                 "I've done a lot of weird things for cash—audited programs, pitched a <a href='https://www.businessrecord.com/pi515-celebrates-girls-entrepreneurship-summit-honors-john-pappajohn/'>startup</a>, published <a href='http://alocasia.org/2022/12/21/joy-su-fertilizer/'>writing</a>, and more. As far as side gigs go, then, this one isn't that 'out there.' My newest inpromptu profession has been editing research papers for Chinese PhD students.",
                 "Through a working relationship with a professor at a top Chinese university, I've comprehensively edited ~3-4 research papers thus far. It's a stark shift from my previous experience (editing for a <a href='https://www.polyphonylit.org/EditorBiosV2/su/joy-su'>literary magazine</a> and reviewing college essays), but it's a jump I feel comfortable making. It's also a fun way to keep up with new developments within the scientific sphere."
@@ -122,9 +122,9 @@ export const ProjectData = {
         {
             title: "Campfire RTP",
             category: "events",
-            shortDescription: "this is the short description here",
+            shortDescription: "Ongoing game jam organizing for students in the RTP.",
             fullDescription: [
-                "<i>This project is still ongoing.</i>",
+                "<i>This project's organization is still ongoing.</i>",
                 "My latest venture into event organizing. <b>Campfire RTP</b> is a game jam for students in the Research Triangle Park.",
                 "This event is part of an initiative organized by <a href='https://hackclub.com/'>Hack Club</a> to host 200 game jams in 200 cities."
             ],
@@ -135,7 +135,7 @@ export const ProjectData = {
         {
             title: "Unmute!",
             category: "events",
-            shortDescription: "this is the short description here",
+            shortDescription: "Youth performance raising mental health awareness.",
             fullDescription: [
                 "I organized Unmute in collaboration with <b>Mental Health America</b>. Unmute was a youth performance intended to raise mental health awareness, with 10 performers of various acts.",
                 "We hosted Unmute at the Cabarrus Arts Council in North Carolina. It was a lot of logistical headache—coordinating venue, performers, and funding—but it was incredibly gratifying see through. I led student sessions, designed all promotional material, and conducted outreach for the event."
@@ -149,7 +149,7 @@ export const ProjectData = {
         {
             title: "Addressing Vitamin C Deficiency in the Ethiopian Refugee Crisis",
             category: "research",
-            shortDescription: "this is the short description here",
+            shortDescription: "Meta-analysis; Borlaug Scholar award and mentorship.",
             fullDescription: [
                 "Meta-analysis. Awarded Borlaug Scholar and nominated to attend Global Youth Institute in 2023 (total scholars include 151 students from 10 countries).",
                 "Was invited back to return as a Group Facilitator for this event in 2025, where I got to mentor nine brilliant students :)"
@@ -159,10 +159,10 @@ export const ProjectData = {
             images: ["/placeholder.jpg"]
         },
         {
-            title: "Alternatively Parameterizing the Bulk Boundary Relationship in Regular Polytopes",
+            title: "Parameterizing the Bulk Boundary Relationship in Polytopes",
             category: "research",
-            shortDescription: "this is the short description here",
-            fullDescription: ["Mathematics paper. Placed third place at the North Carolina Student Academy of Science."],
+            shortDescription: "Research paper; 3rd in North Carolina mathematics",
+            fullDescription: ["Mathematics paper and presentation, titled <i>Alternatively Parameterizing the Bulk Boundary Relationship in Regular Polytopes</i>. Placed third place at the North Carolina Student Academy of Science."],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
             images: ["/placeholder.jpg"]
@@ -170,7 +170,7 @@ export const ProjectData = {
         {
             title: "Residential Segregation and Climate Risk",
             category: "research",
-            shortDescription: "this is the short description here",
+            shortDescription: "Data modeling paper using Python and QGIS.",
             fullDescription: [
                 "Data modeling of relationship between residential segregation and climate risk using Python (Pandas, Scikit-learn, Statsmodels) and Geographic Information System (QGIS).",
                 "Placed 4th in state Technology Student Association conference."
@@ -182,7 +182,7 @@ export const ProjectData = {
         {
             title: "Clearing the Air",
             category: "research",
-            shortDescription: "this is the short description here",
+            shortDescription: "Data science project on particulate matter and COVID-19.",
             fullDescription: [
                 "This was another project I designed for Kode With Klossy. We created an information website that reveals our data analysis on the relationship between particulate matter and COVID-19. This time, though, I was going for a certification in Data Science.",
                 "It's a certification I would recommend for anyone who wants to grasp the basics of analyzing data in Python. I enjoyed most exercises, and it was a fun way to brush up. For <i>Clearing the Air</i>, I also got to brush up on my pixel art skills—one of the first art styles I ever tried.",
