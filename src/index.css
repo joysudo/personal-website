@@ -54,6 +54,12 @@ body {
 
 a {
 	color: var(--default-purple);
+	opacity: 1;
+	transition: 0.1s ease-in-out;
+}
+
+a:hover {
+	opacity: 0.7;
 }
 
 /* NAVIGATION BAR STUFF */
@@ -93,7 +99,7 @@ nav {
 	flex-direction: column;
 	border-radius: 30px; /*stolen from figma file*/
 	overflow: hidden;
-	box-shadow: 0.25rem 0.25rem 0.5rem var(--default-dark);
+	box-shadow: 0.1rem 0.1rem 0.3rem var(--default-purple);
 	transition: 0.3s all;
 	line-height: normal;
 	margin-bottom: auto;
@@ -118,12 +124,14 @@ nav {
 
 .project-card-header {
 	min-height: 75px; /* stolen from figma file, 75px */
+	height: auto;
 	color: var(--default-light);
 	display: flex;
 	flex-direction: row;
+	flex-grow: 1;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1rem 2rem 0rem 2rem;
+	padding: 0.5rem 2rem 0.5rem 2rem;
 	font-size: 1rem;
 }
 
@@ -169,6 +177,10 @@ nav {
 	background-color: var(--default-blue);
 }
 
+.project-card-header.misc {
+	background-color: var(--default-purple);
+}
+
 .project-card-content {
 	margin-top: 1rem;
 	padding: 0 1rem;
@@ -187,7 +199,6 @@ nav {
 .project-card img {
 	border-radius: 20px;
 	max-width: 100%;
-	aspect-ratio: 2;
 	object-fit: cover;
 }
 
@@ -320,7 +331,6 @@ nav {
 	gap: 1rem;
 	padding: 0 5rem;
 	width: auto;
-	margin: 0;
 }
 
 .projects-header {
@@ -387,4 +397,31 @@ nav {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;
 	margin-bottom: 3rem;
+}
+
+/*CONTACT PAGE*/
+.contact-page {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+}
+
+.contact-page .project-card .project-card-header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.contact-page .project-card {
+	max-width: 50vw;
+}
+
+.contact-page .project-card .project-card-content svg {
+	color: var(--default-purple);
+}
+
+.contact-page .project-card .project-card-content p {
+	font-size: x-large;
 }
