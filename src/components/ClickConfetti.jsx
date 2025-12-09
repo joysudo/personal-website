@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Confetti from 'react-confetti-boom';
 
 function ClickConfetti() {
@@ -16,26 +16,21 @@ function ClickConfetti() {
     });
     setKey(prevKey => prevKey + 1) // increment to force rerender
   }, []); // empty dependency array
-  
-  const confettiScreenStyle = {
-    // i just don't want to put this in my css file
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    width: '100vw',
-    height: '100vh',
-    zIndex: 99999,
-    pointerEvents: 'auto',
-    backgroundColor: 'rgba(0, 0, 0, 0)',
-  }
 
+  useEffect(() => {
+    document.addEventListener('click', handleClick);
+    return () => { // clean up when unmounted bc i always forget
+      document.removeEventListener('click', handleClick);
+    }
+  })
+  
   return(
-    <div style={confettiScreenStyle} onClick={handleClick}>
+    <>
       {confettiInfo && <Confetti
         key={key}
         {...confettiInfo}
       />}
-    </div>
+    </>
   ) 
 }
 export default ClickConfetti;

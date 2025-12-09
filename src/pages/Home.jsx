@@ -1,14 +1,16 @@
 import { ProjectData } from "../data/ProjectData.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
 import CommitHash from "../components/CommitHash.jsx";
+import ClickConfetti from '../components/ClickConfetti';
 
 const Home = () => {
 	return (
 		<>
+			<ClickConfetti/>
 			<div className="hero-section">
 				<h3 className="hero-subtext">Hi, I'm...</h3>
 				<h1 className="hero-text">J🥠Y SU</h1>
-				<h3 className="hero-tagline">(Short name. Tall person.)</h3> {/* one day, make this tagline switch between 2-5 options! */}
+				<h3 className="hero-tagline">(Click for a surprise!)</h3> {/* one day, make this tagline switch between 2-5 options! */}
 			</div>
 			<div className="info-section">
 				<div className="info-text">
