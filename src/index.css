@@ -38,6 +38,7 @@
 	--default-yellow: #ffde5b;
 	--default-green: #b7e169;
 	--default-blue: #69cbe5;
+	--default-purple: #8A5865;
 	--default-dark: #2f2b45;
 	--default-light: #fffdf9;
 	--s: 10px;
@@ -47,6 +48,12 @@
 body {
 	font-family: 'HeadingNow','Arial', sans-serif;
 	color: var(--default-dark);	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: var(--default-purple);
 }
 
 /* NAVIGATION BAR STUFF */
@@ -94,6 +101,7 @@ nav {
 	background-color: var(--default-light);
 	max-height: 80vh;
 	max-width: 90vw;
+	min-width: 30vw;
 }
 
 .project-card:not(.project-card-overlay .project-card) {
@@ -109,7 +117,7 @@ nav {
 }
 
 .project-card-header {
-	height: 75px; /* stolen from figma file, 75px */
+	min-height: 75px; /* stolen from figma file, 75px */
 	color: var(--default-light);
 	display: flex;
 	flex-direction: row;
@@ -142,6 +150,7 @@ nav {
 .project-card-header h1 {
 	margin-top: 0;
 	margin-bottom: -0.25rem;
+	line-height: 1.75rem;
 }
 
 .project-card-header.coding {
@@ -311,6 +320,7 @@ nav {
 	gap: 1rem;
 	padding: 0 5rem;
 	width: auto;
+	margin: 0;
 }
 
 .projects-header {
@@ -376,5 +386,5 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 2rem;
+	margin-bottom: 3rem;
 }
-
