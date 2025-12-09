@@ -9,7 +9,7 @@ export const ProjectData = {
                 "This thing is built in React—really a pretty straightforward process! It took me around eight hours of coding, according to Hackatime, and I'd estimate one hour on Figma. Would recommend for any other students during a rainy day off school."
             ],
             date: "December 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/figma.png"]
         },
         {
             title: "Cattatime",
@@ -81,7 +81,7 @@ export const ProjectData = {
             fullDescription: [
                 "I started making videos for African American Studies for my friends. I didn't expect that I would be asked by other African American Studies students to make more videos for the next three months straight.", 
                 "Now, I'm in the middle of an accidental YouTuber arc. I'm also realizing that no one knows that 'Sucrates' is a pun. You know Socrates? <i>Su</i>-crates? My last name? I'm not just really into crates, I promise.",
-                "<i>You can watch my videos on <a href='https://www.youtube.com/@su.crates'>Youtube</a> or support them on my <a href='https://buymeacoffee.com/sucrates'>Buy Me a Coffee</a> page.</i>"
+                "<i>You can watch my videos on <a target='_blank' href='https://www.youtube.com/@su.crates'>Youtube</a> or support them on my <a target='_blank' href='https://buymeacoffee.com/sucrates'>Buy Me a Coffee</a> page.</i>"
             ],
             date: "September 2025 - Present",
             images: ["/placeholder.jpg"]
@@ -102,8 +102,8 @@ export const ProjectData = {
             category: "teaching",
             shortDescription: "Editing research papers for PhD candidates.",
             fullDescription: [
-                "I've done a lot of weird things for cash—audited programs, pitched a <a href='https://www.businessrecord.com/pi515-celebrates-girls-entrepreneurship-summit-honors-john-pappajohn/'>startup</a>, published <a href='http://alocasia.org/2022/12/21/joy-su-fertilizer/'>writing</a>, and more. As far as side gigs go, then, this one isn't that 'out there.' My newest inpromptu profession has been editing research papers for Chinese PhD students.",
-                "Through a working relationship with a professor at a top Chinese university, I've comprehensively edited ~3-4 research papers thus far. It's a stark shift from my previous experience (editing for a <a href='https://www.polyphonylit.org/EditorBiosV2/su/joy-su'>literary magazine</a> and reviewing college essays), but it's a jump I feel comfortable making. It's also a fun way to keep up with new developments within the scientific sphere."
+                "I've done a lot of weird things for cash—audited programs, pitched a <a target='_blank' href='https://www.businessrecord.com/pi515-celebrates-girls-entrepreneurship-summit-honors-john-pappajohn/'>startup</a>, published <a target='_blank' href='http://alocasia.org/2022/12/21/joy-su-fertilizer/'>writing</a>, and more. As far as side gigs go, then, this one isn't that 'out there.' My newest inpromptu profession has been editing research papers for Chinese PhD students.",
+                "Through a working relationship with a professor at a top Chinese university, I've comprehensively edited ~3-4 research papers thus far. It's a stark shift from my previous experience (editing for a <a target='_blank' href='https://www.polyphonylit.org/EditorBiosV2/su/joy-su'>literary magazine</a> and reviewing college essays), but it's a jump I feel comfortable making. It's also a fun way to keep up with new developments within the scientific sphere."
             ],
             date: "July 2024",
             images: ["/placeholder.jpg"]
@@ -117,7 +117,7 @@ export const ProjectData = {
             fullDescription: [
                 "<i>This project's organization is still ongoing.</i>",
                 "My latest venture into event organizing. <b>Campfire RTP</b> is a game jam for students in the Research Triangle Park.",
-                "This event is part of an initiative organized by <a href='https://hackclub.com/'>Hack Club</a> to host 200 game jams in 200 cities."
+                "This event is part of an initiative organized by <a target='_blank' href='https://hackclub.com/'>Hack Club</a> to host 200 game jams in 200 cities."
             ],
             date: "February 2026",
             images: ["/placeholder.jpg"]
@@ -172,7 +172,7 @@ export const ProjectData = {
             fullDescription: [
                 "This was another project I designed for Kode With Klossy. We created an information website that reveals our data analysis on the relationship between particulate matter and COVID-19. This time, though, I was going for a certification in Data Science.",
                 "It's a certification I would recommend for anyone who wants to grasp the basics of analyzing data in Python. I enjoyed most exercises, and it was a fun way to brush up. For <i>Clearing the Air</i>, I also got to brush up on my pixel art skills—one of the first art styles I ever tried.",
-                "I illustrated, analyzed, and wrote <a href='https://joysu20083.wixsite.com/clearingtheair'>Clearing the Air website</a>. Other team members focused on other <a href='https://raissa-nobrega.wixstudio.io/clear-the-air'>informational website pages</a> and research."
+                "I illustrated, analyzed, and wrote <a target='_blank' href='https://joysu20083.wixsite.com/clearingtheair'>Clearing the Air website</a>. Other team members focused on other <a target='_blank' href='https://raissa-nobrega.wixstudio.io/clear-the-air'>informational website pages</a> and research."
             ],
             date: "July 2024",
             images: ["/placeholder.jpg"]
