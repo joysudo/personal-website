@@ -94,6 +94,16 @@ nav {
 }
 
 /* PROJECT CARD COMPONENT STUFF */
+@keyframes card-appear {
+	from {
+		opacity: 0.8;
+		transform: translateY(50px) scale(0.95);
+	} to {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+
 .project-card {
 	display: flex;
 	flex-direction: column;
@@ -108,6 +118,8 @@ nav {
 	max-height: 80vh;
 	max-width: 90vw;
 	min-width: 30vw;
+	animation: 0.2s card-appear;
+	animation-timeline: view(block);
 }
 
 .project-card:not(.project-card-overlay .project-card) {
@@ -226,6 +238,7 @@ nav {
 	align-items: center;
 	backdrop-filter: blur(0.1rem);
 	animation: fadeIn 0.2s ease-out forwards;
+	z-index: 999;
 }
 
 /* HOMEPAGE: HERO SECTION */
@@ -287,10 +300,22 @@ nav {
 	align-items: center;
 }
 
+@keyframes photobooth-appear {
+	from {
+		opacity: 0.8;
+		transform: rotate(-10deg);
+	} to {
+		opacity: 1;
+		transform: rotate(0);
+	}
+}
+
 .photobooth {
 	display: flex;
 	flex-direction: column;
 	width: calc(var(--s)*20);
+	animation: 0.2s photobooth-appear;
+	animation-timeline: view(block);
 }
 
 .photobooth img {
@@ -395,7 +420,8 @@ nav {
 .projects-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 2rem;
+	column-gap: 2rem;
+	row-gap: 1rem;
 	margin-bottom: 3rem;
 }
 

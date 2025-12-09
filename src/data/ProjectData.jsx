@@ -167,14 +167,14 @@ export const ProjectData = {
         },
         {
             title: "Clearing the Air",
-            category: "July 2024",
+            category: "research",
             shortDescription: "Data science project on particulate matter and COVID-19.",
             fullDescription: [
                 "This was another project I designed for Kode With Klossy. We created an information website that reveals our data analysis on the relationship between particulate matter and COVID-19. This time, though, I was going for a certification in Data Science.",
                 "It's a certification I would recommend for anyone who wants to grasp the basics of analyzing data in Python. I enjoyed most exercises, and it was a fun way to brush up. For <i>Clearing the Air</i>, I also got to brush up on my pixel art skills—one of the first art styles I ever tried.",
                 "I illustrated, analyzed, and wrote <a href='https://joysu20083.wixsite.com/clearingtheair'>Clearing the Air website</a>. Other team members focused on other <a href='https://raissa-nobrega.wixstudio.io/clear-the-air'>informational website pages</a> and research."
             ],
-            date: "December",
+            date: "July 2024",
             images: ["/placeholder.jpg"]
         }
     ]
