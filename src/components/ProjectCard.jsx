@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
         <div className="project-card-content">
           <p>{project.shortDescription}</p>
           <img src={project.images[0]} style={{ aspectRatio: 2 }}/>
-          <p className="project-card-date">{project.startDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'}) + " - " + project.endDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'})}</p>
+          <p className="project-card-date">{project.date}</p>
         </div>
       </div>
       {modal && 
@@ -41,7 +41,7 @@ const ProjectCard = ({ project }) => {
                   <img src={image}/>
                 )}
               </div>
-              <p className="project-card-date">{project.startDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'}) + " - " + project.endDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'})}</p>
+              <p className="project-card-date">{project.date}</p>
             </div>
           </div>
         </div>
