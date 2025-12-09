@@ -1,6 +1,6 @@
 import { ProjectData } from "../data/ProjectData.jsx";
 import ProjectCard from "../components/ProjectCard.jsx";
-import React from 'react';
+import CommitHash from "../components/CommitHash.jsx";
 
 const Home = () => {
 	return (
@@ -34,8 +34,8 @@ const Home = () => {
 				</div>
 			</div>
 			<div className="footer-section">
-				<p className="footer-text">This is my digital space. Take a look around my portfolio, leave a note on my guestbook, and maybe send me a message?</p>
-				<p className="footer-subtext">Link to Github here.</p>
+				<p className="footer-text">This is my digital space. Take a look around my resume, learn about some new projects, and maybe send me a message?</p>
+				<p className="footer-subtext">Link to <a href='https://github.com/joysudo/personal-website/' style={{mouse: 'cursor', textStyle: 'underline'}}>Github</a> here. <CommitHash/></p>
 			</div>
 		</>
 	);
