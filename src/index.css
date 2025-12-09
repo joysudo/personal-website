@@ -399,6 +399,21 @@ nav {
 	margin-bottom: 3rem;
 }
 
+.project-card-image-container {
+	max-height: 30vh;
+	/* overflow-x: auto; */
+	display: flex;
+	flex-direction: row;
+	min-width: 100%;
+	justify-content: center;
+}
+
+.project-card-image-container img {
+	height: auto;
+	object-fit: contain;
+	aspect-ratio: auto;
+}
+
 /*CONTACT PAGE*/
 .contact-page {
 	width: 100%;

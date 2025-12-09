@@ -10,7 +10,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Cattatime",
@@ -24,7 +24,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Logic Lab",
@@ -37,7 +37,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Unburnt Books",
@@ -51,7 +51,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "John Deere Tech Mentorship",
@@ -64,7 +64,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         }
     ], 
     teaching: [
@@ -73,12 +73,12 @@ export const ProjectData = {
             category: "teaching",
             shortDescription: "this is the short description here",
             fullDescription: [
-                "I worked with Pi515 to create a coding curriculum (that we piloted in three middle schools!). For months, we prepped before entering schools, where I was lucky enough to be able to instruct.",
+                "I worked with Pi515, a nonprofit in the Des Moines area. There, we created a coding curriculum (that we piloted in three middle schools!). For months, we prepped before entering schools, where I was lucky enough to be able to instruct.",
                 "I miss these kids unbelievably. If you were at a middle school I taught—reach out anytime."
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Sucrates: African American Studies Videos",
@@ -91,7 +91,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Girls Who Code Student Leadership Council",
@@ -103,7 +103,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Research Paper Editing Services",
@@ -115,7 +115,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         }
     ], 
     events: [
@@ -130,7 +130,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Unmute!",
@@ -142,7 +142,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
     ], 
     research: [
@@ -156,7 +156,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Alternatively Parameterizing the Bulk Boundary Relationship in Regular Polytopes",
@@ -165,7 +165,7 @@ export const ProjectData = {
             fullDescription: ["Mathematics paper. Placed third place at the North Carolina Student Academy of Science."],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Residential Segregation and Climate Risk",
@@ -177,7 +177,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         },
         {
             title: "Clearing the Air",
@@ -190,7 +190,7 @@ export const ProjectData = {
             ],
             startDate: new Date(2024, 0, 15),
             endDate: new Date(2025, 0, 15),
-            coverImage: "/placeholder.jpg"
+            images: ["/placeholder.jpg"]
         }
     ]
 }

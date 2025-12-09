@@ -15,8 +15,8 @@ const Home = () => {
 					<p>I’m a  coder, organizer, and advocate with an interest in making things happen.</p>
 					<p>My biggest strength is identifying problems and doing something about them. That drive has let me make technical projects…</p>
 					<div className="info-cards">
-						<ProjectCard project={ProjectData.coding[0]}/>
-						<ProjectCard project={ProjectData.coding[1]}/>
+						<ProjectCard project={ProjectData.coding[2]}/>
+						<ProjectCard project={ProjectData.research[2]}/>
 					</div>
 					<p>And organize huge events.</p>
 					<div className="info-cards">

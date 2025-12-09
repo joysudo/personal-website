@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className="project-card-content">
           <p>{project.shortDescription}</p>
-          <img src={project.coverImage}/>
+          <img src={project.images[0]} style={{ aspectRatio: 2 }}/>
           <p className="project-card-date">{project.startDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'}) + " - " + project.endDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'})}</p>
         </div>
       </div>
@@ -36,8 +36,11 @@ const ProjectCard = ({ project }) => {
               {project.fullDescription.map((description) => 
                 <p dangerouslySetInnerHTML={{ __html: description }} />
               )}
-              {console.log(project.fullDescription)}
-              <img src={project.coverImage}/>
+              <div className="project-card-image-container">
+                {project.images.map((image)=>
+                  <img src={image}/>
+                )}
+              </div>
               <p className="project-card-date">{project.startDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'}) + " - " + project.endDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'})}</p>
             </div>
           </div>
