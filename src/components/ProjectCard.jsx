@@ -26,15 +26,15 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
       {modal && 
-        <div className="project-card-overlay">
-          <div className="project-card">
+        <div className="project-card-overlay" onClick={() => setModal(false)}>
+          <div className="project-card" onClick={(e) => e.stopPropagation()}>
             <div className={`project-card-header ${project.category}`}>
               <h1>{project.title}</h1>
               <button onClick={() => setModal(false)}>X</button>
             </div>
             <div className="project-card-content" style={{overflowY: 'auto'}}>
               {project.fullDescription.map((description) => 
-                <p>{description}</p>
+                <p dangerouslySetInnerHTML={{ __html: description }} />
               )}
               {console.log(project.fullDescription)}
               <img src={project.coverImage}/>
