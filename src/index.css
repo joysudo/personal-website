@@ -432,14 +432,18 @@ nav {
 	/* overflow-x: auto; */
 	display: flex;
 	flex-direction: row;
-	min-width: 100%;
 	justify-content: center;
+	gap: 1rem;
 }
 
 .project-card-image-container img {
-	height: auto;
-	object-fit: contain;
-	aspect-ratio: auto;
+  border-radius: 20px;
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%; 
+  aspect-ratio: auto;
+  max-height: 30vh;
+  width: auto; 
 }
 
 /*CONTACT PAGE*/
