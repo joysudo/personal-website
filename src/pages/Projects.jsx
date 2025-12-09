@@ -7,7 +7,7 @@ const Projects = () => {
 	const [activeCategory, setActiveCategory] = useState('all');
 	return (
 		<div className="projects-page">
-			<h1>this is the projects page</h1>
+			<h1 className="projects-header">Selected Projects</h1>
 			<div className="category-select-container">
 				{categories.map((category) => 
 					<button className={`category-select ${category} ${category === activeCategory ? 'active' : ''}`} onClick={() => setActiveCategory(category)}>{category}</button>

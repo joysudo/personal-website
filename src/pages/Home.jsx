@@ -8,7 +8,7 @@ const Home = () => {
 			<div className="hero-section">
 				<h3 className="hero-subtext">Hi, I'm...</h3>
 				<h1 className="hero-text">J🥠Y SU</h1>
-				<h3 className="hero-tagline">tagline will go here</h3>
+				<h3 className="hero-tagline">(Short name. Tall person.)</h3> {/* one day, make this tagline switch between 2-5 options! */}
 			</div>
 			<div className="info-section">
 				<div className="info-text">
