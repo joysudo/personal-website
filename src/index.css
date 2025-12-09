@@ -100,6 +100,10 @@ nav {
 	transform: translateY(-0.5rem);
 }
 
+.project-card-overlay .project-card .project-card-header h1{
+	margin-bottom: 1rem !important;
+}
+
 .project-card-header {
 	height: 75px; /* stolen from figma file, 75px */
 	color: var(--default-light);
@@ -152,6 +156,7 @@ nav {
 }
 
 .project-card-content {
+	margin-top: 1rem;
 	padding: 0 1rem;
 	display: flex;
 	flex-direction: column;

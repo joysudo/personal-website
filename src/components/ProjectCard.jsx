@@ -22,7 +22,10 @@ const ProjectCard = ({ project }) => {
               <button onClick={() => setModal(false)}>X</button>
             </div>
             <div className="project-card-content" style={{overflowY: 'auto'}}>
-              <p>{project.fullDescription}</p>
+              {project.fullDescription.map((description) => 
+                <p>{description}</p>
+              )}
+              {console.log(project.fullDescription)}
               <img src={project.coverImage}/>
               <p className="project-card-date">{project.startDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'}) + " - " + project.endDate.toLocaleDateString('en-US', {month: 'long', year: 'numeric'})}</p>
             </div>
