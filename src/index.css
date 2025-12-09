@@ -96,6 +96,10 @@ nav {
 	max-width: 90vw;
 }
 
+.project-card:not(.project-card-overlay .project-card) {
+	cursor: pointer;
+}
+
 .project-card:hover:not(.project-card-overlay .project-card:hover) {
 	transform: translateY(-0.5rem);
 }
@@ -124,6 +128,7 @@ nav {
 	font-family: 'HeadingNow';
 	font-weight: 800;
 	transition: 0.075s ease-in-out;
+	cursor: pointer;
 }
 
 .project-card-header button:hover {
@@ -234,6 +239,7 @@ nav {
 .hero-tagline {
 	align-self: flex-end;
 	font-style: italic;
+	font-size: xx-large !important;
 }
 
 /* HOMEPAGE: INFO SECTION */
@@ -369,6 +375,6 @@ nav {
 .projects-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 4rem;
+	gap: 2rem;
 }
 

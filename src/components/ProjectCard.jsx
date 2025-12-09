@@ -1,7 +1,18 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const ProjectCard = ({ project }) => {
   const [modal, setModal] = useState(false);
+  useEffect(() => {
+    if (modal) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unsert';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [modal])
+
   return (
     <>
       <div className="project-card" onClick={() => setModal(true)}>
