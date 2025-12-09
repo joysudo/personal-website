@@ -9,7 +9,7 @@ export const ProjectData = {
                 "This thing is built in React—really a pretty straightforward process! It took me around eight hours of coding, according to Hackatime, and I'd estimate one hour on Figma. Would recommend for any other students during a rainy day off school."
             ],
             date: "December 2025",
-            images: ["/card_images/figma.png"]
+            images: ["/card_images/personalsite1.png", "/card_images/personalsite2.png"]
         },
         {
             title: "Cattatime",
@@ -22,7 +22,7 @@ export const ProjectData = {
                 "It was a very sleep-deprived 36 hours, but I had tons of fun. Lots of love to my Parthy friends! And I think our eye bags paid off, with Cattatime earning <b>first place</b> ʕ·͡ᴥ·ʔ"
             ],
             date: "November 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/cattatime.png"]
         },
         {
             title: "Logic Lab",
@@ -34,7 +34,7 @@ export const ProjectData = {
                 "In the end, I spent <b>50-60 hours</b> coding the site. What probably contributed to that lengthy coding time was the fact it was my first time ever using React. I taught myself it while refreshing myself on Javascript, which I had only ever used to make buttons on static websites as a kid."
             ],
             date: "June - August 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/logiclab1.png", "/card_images/logiclab2.png", "/card_images/logiclab3.png", "/card_images/logiclab4.png"]
         },
         {
             title: "Unburnt Books",
@@ -44,10 +44,11 @@ export const ProjectData = {
                 "I joined <b>Kode With Klossy</b>'s web development program because my little sister told me she required me for moral support. This was really not a course made for me, as someone already familiar with <b>HTML</b>, <b>CSS</b>, and <b>JS</b>.",
                 "But I loved getting to meet the people in my group, and it was nice having dedicated time to work on a project every day. As a final project, I helped make <b>Unburnt Books</b>. While the UI (sans navigation bar) was mostly designed by my teammates, I did handle the <b>recommender</b>, which fetches data from a collection of banned books I scraped the internet for. And my sister made a website she was proud of—which is all I can really ask for.",
                 "My biggest insights, ironically, mostly surrounded curriculum development. When we design video games, we talk about the 'compulsion loop': <i>anticipation</i> (e.g. buying gear to fight the boss), <i>challenge</i> (e.g. fighting the boss), and <i>reward</i> (e.g. slaying the boss itself). In the beginning stages of learning, I think the goal is quantity of projects over quality. And that's because we're looking for learners to experience the full cycle of the compulsion loop as many times as possible.",
-                "When I'm teaching kids, I'm hoping for this same anticipation while receiving instruction, challenge while applying instruction, and reward from mastery of new skill. Luckily, I think skills like coding really lend themselves to this cycle."
+                "When I'm teaching kids, I'm hoping for this same anticipation while receiving instruction, challenge while applying instruction, and reward from mastery of new skill. Luckily, I think skills like coding really lend themselves to this cycle.",
+                "<i>You can view Unburnt Books <a target='_blank' href='https://unburnt-books.vercel.app/'>here</a>.</i>"
             ],
             date: "July 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/unburnt1.png", "/card_images/unburnt2.png", "/card_images/unburnt3.png"]
         },
         {
             title: "John Deere Tech Mentorship",
@@ -59,7 +60,7 @@ export const ProjectData = {
                 "At the end of our six months, I was invited to give a keynote speech. Miraculously, I have <i>zero</i> pictures of me delivering it. But the twice-weekly sessions opened me up to what actually working in computer science looks like."
             ],
             date: "October 2022 - March 2023",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/deere.jpeg"]
         }
     ], 
     teaching: [
@@ -72,7 +73,7 @@ export const ProjectData = {
                 "I miss these kids unbelievably. If you were at a middle school I taught—reach out anytime."
             ],
             date: "February 2023 - May 2023",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/pi515.jpeg"]
         },
         {
             title: "Sucrates: African American Studies Videos",
@@ -84,7 +85,7 @@ export const ProjectData = {
                 "<i>You can watch my videos on <a target='_blank' href='https://www.youtube.com/@su.crates'>Youtube</a> or support them on my <a target='_blank' href='https://buymeacoffee.com/sucrates'>Buy Me a Coffee</a> page.</i>"
             ],
             date: "September 2025 - Present",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/sucrates.jpg"]
         },
         {
             title: "Girls Who Code Student Leadership Council",
@@ -95,7 +96,7 @@ export const ProjectData = {
                 "The reason this works? There are a few key dropoffs in female stem engagement (one in early education, with big ones also happening in college/early career). The issue is often a confidence gap, not an <i>ability</i> gap."
             ],
             date: "February - July 2024",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/girlswhocode.png"]
         },
         {
             title: "Research Paper Editing Services",
@@ -106,7 +107,7 @@ export const ProjectData = {
                 "Through a working relationship with a professor at a top Chinese university, I've comprehensively edited ~3-4 research papers thus far. It's a stark shift from my previous experience (editing for a <a target='_blank' href='https://www.polyphonylit.org/EditorBiosV2/su/joy-su'>literary magazine</a> and reviewing college essays), but it's a jump I feel comfortable making. It's also a fun way to keep up with new developments within the scientific sphere."
             ],
             date: "July 2024",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/phdpaper.png"]
         }
     ], 
     events: [
@@ -120,7 +121,7 @@ export const ProjectData = {
                 "This event is part of an initiative organized by <a target='_blank' href='https://hackclub.com/'>Hack Club</a> to host 200 game jams in 200 cities."
             ],
             date: "February 2026",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/campfire.png"]
         },
         {
             title: "Unmute!",
@@ -131,7 +132,7 @@ export const ProjectData = {
                 "We hosted Unmute at the Cabarrus Arts Council in North Carolina. It was a lot of logistical headache—coordinating venue, performers, and funding—but it was incredibly gratifying see through. I led student sessions, designed all promotional material, and conducted outreach for the event."
             ],
             date: "August 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/unmute.JPEG"]
         },
     ], 
     research: [
@@ -140,11 +141,11 @@ export const ProjectData = {
             category: "research",
             shortDescription: "Meta-analysis; Borlaug Scholar award and mentorship.",
             fullDescription: [
-                "Meta-analysis. Awarded Borlaug Scholar and nominated to attend Global Youth Institute in 2023 (total scholars include 151 students from 10 countries).",
+                "Meta-analysis. Awarded Borlaug Scholar by the World Food Prize and nominated to attend Global Youth Institute in 2023 (total scholars include 151 students from 10 countries).",
                 "Was invited back to return as a Group Facilitator for this event in 2025, where I got to mentor nine brilliant students :)"
             ],
             date: "May 2023, October 2023, October 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/wfp1.JPG", "/card_images/wfp3.JPG", "/card_images/wfp2.JPG"]
         },
         {
             title: "Parameterizing the Bulk Boundary Relationship in Polytopes",
@@ -152,7 +153,7 @@ export const ProjectData = {
             shortDescription: "Research paper; 3rd in North Carolina mathematics",
             fullDescription: ["Mathematics paper and presentation, titled <i>Alternatively Parameterizing the Bulk Boundary Relationship in Regular Polytopes</i>. Placed third place at the North Carolina Student Academy of Science."],
             date: "March 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/regularpolytopes.png"]
         },
         {
             title: "Residential Segregation and Climate Risk",
@@ -163,7 +164,7 @@ export const ProjectData = {
                 "Placed 4th in state Technology Student Association conference."
             ],
             date: "April 2025",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/segregationmodeling1.png", "/card_images/segregationmodeling2.png", "/card_images/segregationmodeling3.png"]
         },
         {
             title: "Clearing the Air",
@@ -175,7 +176,7 @@ export const ProjectData = {
                 "I illustrated, analyzed, and wrote <a target='_blank' href='https://joysu20083.wixsite.com/clearingtheair'>Clearing the Air website</a>. Other team members focused on other <a target='_blank' href='https://raissa-nobrega.wixstudio.io/clear-the-air'>informational website pages</a> and research."
             ],
             date: "July 2024",
-            images: ["/placeholder.jpg"]
+            images: ["/card_images/clearingtheair.png"]
         }
     ]
 }
