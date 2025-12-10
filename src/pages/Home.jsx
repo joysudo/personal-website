@@ -28,10 +28,10 @@ const Home = () => {
 				</div>
 				<div className="info-graphics">
 					<div className="photobooth">
-						<img src="/placeholder.jpg"/>
-						<img src="/placeholder.jpg"/>
-						<img src="/placeholder.jpg"/>
-						<img src="/placeholder.jpg"/>
+						<img src="/card_images/IMG_5464.jpg"/>
+						<img src="/card_images/HPIM0831_Original.jpg"/>
+						<img src="/card_images/E59DF367-611B-44FF-9E48-283F03EC4587.jpg"/>
+						<img src="/card_images/HPIM1653_Original.jpg"/>
 					</div>
 				</div>
 			</div>
