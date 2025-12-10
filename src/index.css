@@ -121,7 +121,7 @@ nav {
 	animation-timeline: view(block);
 }
 
-.project-card:not(.project-card-overlay .project-card) {
+.project-card:not(.project-card-overlay .project-card):not(.contact-page .project-card) {
 	cursor: pointer;
 }
 
