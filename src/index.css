@@ -473,3 +473,11 @@ nav {
 .contact-page .project-card .project-card-content p {
 	font-size: x-large;
 }
+
+.contact-footer {
+	text-align: center;
+	align-self: center;
+	opacity: 0.5;
+	color: var(--default-dark);
+	font-style: italic;
+}

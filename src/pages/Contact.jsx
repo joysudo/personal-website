@@ -3,7 +3,6 @@ import ClickConfetti from '../components/ClickConfetti';
 const Contact = () => {
 		return (
 			<>
-				<ClickConfetti/>
 				<div className="contact-page">
 					<div className="project-card" onClick={(e) => e.stopPropagation()}>
 						<div className={`project-card-header misc`}>
@@ -28,6 +27,8 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
+				<ClickConfetti/>
+				<p className="contact-footer">(Yes, you can click the page for more confetti.)</p>
 			</>
 	);
 };
