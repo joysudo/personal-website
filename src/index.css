@@ -436,12 +436,14 @@ nav {
 }
 
 .project-card-image-container {
+	min-height: 15vh;
 	max-height: 40vh;
+	height: auto;
 	overflow-x: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	gap: 1rem;
+	gap: 1vw;
 	overflow-y: hidden;
 }
 
