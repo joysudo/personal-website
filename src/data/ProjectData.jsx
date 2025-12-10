@@ -19,7 +19,8 @@ export const ProjectData = {
                 "I helped make Cattatime at a <b>Parthenon</b>: the largest all-girls high school hackathon in the world . I met my teammates (Kat and Kaylee!) after a chaotic few hours of navigating transit with a carry-on.",
                 "The app itself is a virtual pet. You can get coins to buy your cat accessories by tracking coding hours in <b>Hackatime</b>.",
                 "I built Cattatime's entire frontend (also handled the backend operation of getting data to save to a local JSON). Kat navigated the backend and Slack integration, while Kaylee drew our visuals. Because we used Electron to turn React into a desktop application, I think a web port would be pretty simple. That's my idea for a next step forward, although we've got plenty of hats to add and more virtual inflation to fix 🫠",
-                "It was a very sleep-deprived 36 hours, but I had tons of fun. Lots of love to my Parthy friends! And I think our eye bags paid off, with Cattatime earning <b>first place</b> ʕ·͡ᴥ·ʔ"
+                "It was a very sleep-deprived 36 hours, but I had tons of fun. Lots of love to my Parthy friends! And I think our eye bags paid off, with Cattatime earning <b>first place</b> ʕ·͡ᴥ·ʔ",
+                "<i>You can download Cattatime on the <a target='_blank' href='https://hackatime.hackclub.com/extensions'>official Hackatime extensions page</a>.</i>"
             ],
             date: "November 2025",
             images: ["/card_images/cattatime.png"]
@@ -31,7 +32,8 @@ export const ProjectData = {
             fullDescription: [
                 "Logic Lab is an e-learning platform that teaches users to <b>identify logical fallacies</b>. Think of it like Duolingo for media literacy.", 
                 "Logic Lab was initially an entry for the Congressional App Challenge. I made a pact with my friend, Tanisha Sajjan, over the summer. She would develop a Chrome extension, using AI to highlight fallacies as users browsed. I would build the site.",
-                "In the end, I spent <b>50-60 hours</b> coding the site. What probably contributed to that lengthy coding time was the fact it was my first time ever using React. I taught myself it while refreshing myself on Javascript, which I had only ever used to make buttons on static websites as a kid."
+                "In the end, I spent <b>50-60 hours</b> coding the site. What probably contributed to that lengthy coding time was the fact it was my first time ever using React. I taught myself it while refreshing myself on Javascript, which I had only ever used to make buttons on static websites as a kid.",
+                "<i>You can view Logic Lab <a target='_blank' href='https://logic-lab-eight.vercel.app/'>here</a>. Website really, really, really not optimized for mobile.</i>"
             ],
             date: "June - August 2025",
             images: ["/card_images/logiclab1.png", "/card_images/logiclab2.png", "/card_images/logiclab3.png", "/card_images/logiclab4.png"]
@@ -173,7 +175,7 @@ export const ProjectData = {
             fullDescription: [
                 "This was another project I designed for Kode With Klossy. We created an information website that reveals our data analysis on the relationship between particulate matter and COVID-19. This time, though, I was going for a certification in Data Science.",
                 "It's a certification I would recommend for anyone who wants to grasp the basics of analyzing data in Python. I enjoyed most exercises, and it was a fun way to brush up. For <i>Clearing the Air</i>, I also got to brush up on my pixel art skills—one of the first art styles I ever tried.",
-                "I illustrated, analyzed, and wrote <a target='_blank' href='https://joysu20083.wixsite.com/clearingtheair'>Clearing the Air website</a>. Other team members focused on other <a target='_blank' href='https://raissa-nobrega.wixstudio.io/clear-the-air'>informational website pages</a> and research."
+                "I illustrated, analyzed, and scripted <a target='_blank' href='https://joysu20083.wixsite.com/clearingtheair'>the Clearing the Air website</a>. Other team members focused on other <a target='_blank' href='https://raissa-nobrega.wixstudio.io/clear-the-air'>informational website pages</a> and research."
             ],
             date: "July 2024",
             images: ["/card_images/clearingtheair.png"]
