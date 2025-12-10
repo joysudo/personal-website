@@ -41,7 +41,7 @@
 	--default-purple: #8A5865;
 	--default-dark: #2f2b45;
 	--default-light: #fffdf9;
-	--s: 10px;
+	--s: 1.5vh;
 	background-color: var(--default-light);
 }
 
@@ -72,11 +72,10 @@ nav {
 .navigation-links {
 	list-style: none;
 	margin: 0; /*is this necessary idk*/
-	padding: 0; /*is this necessary idk*/
 	display: flex;
 	gap: 4rem;
 	align-items: center;
-	padding: 3rem;
+	padding: 5vw 5vw 1vw 5vw;
 }
 
 .navigation-links li a {
@@ -131,7 +130,7 @@ nav {
 }
 
 .project-card-overlay .project-card .project-card-header h1{
-	margin-bottom: 1rem !important;
+	margin-bottom: 1vw !important;
 }
 
 .project-card-header {
@@ -252,7 +251,7 @@ nav {
 }
 
 .hero-section h1 {
-	font-size: 30vh;
+	font-size: 15vw;
 	align-self: center;
 	line-height: 0rem;
 	font-weight: 800;
@@ -267,6 +266,10 @@ nav {
 .hero-subtext {
 	align-self: flex-start;
 	font-weight: normal;
+	font-size: 5vw;
+	flex-wrap: wrap;
+	white-space: normal;
+	overflow-wrap: break-word;
 }
 
 .hero-tagline {
@@ -280,8 +283,8 @@ nav {
 	display: flex;
 	flex-direction: row;
 	width: auto;
-	padding: 5rem;
-	gap: 2rem;
+	padding: 5vw;
+	gap: 2vw;
 }
 
 .info-text {
@@ -291,7 +294,7 @@ nav {
 .info-cards {
 	display: flex;
 	flex-direction: row;
-	gap: 1rem;
+	gap: 1vw;
 }
 
 .info-graphics {
@@ -303,7 +306,7 @@ nav {
 @keyframes photobooth-appear {
 	from {
 		opacity: 0.8;
-		transform: rotate(-10deg);
+		transform: rotate(-5deg);
 	} to {
 		opacity: 1;
 		transform: rotate(0);
@@ -316,6 +319,7 @@ nav {
 	width: calc(var(--s)*20);
 	animation: 0.2s photobooth-appear;
 	animation-timeline: view(block);
+	max-width: 30vw;
 }
 
 .photobooth img {
@@ -336,7 +340,8 @@ nav {
 .footer-section {
 	width: auto;
 	text-align: center;
-	margin: 20vh;
+	max-width: 75vw;
+	margin: 0 auto;
 }
 
 .footer-text {
@@ -355,8 +360,8 @@ nav {
 .projects-page {
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
-	padding: 0 5rem;
+	gap: 1vw;
+	padding: 0 5vw;
 	width: auto;
 }
 
@@ -368,7 +373,7 @@ nav {
 .category-select-container {
 	display: flex;
 	flex-direction: row;
-	gap: 1rem;
+	gap: 1vw;
 }
 
 .category-select {
@@ -454,6 +459,7 @@ nav {
 	align-items: center;
 	justify-content: center;
 	height: auto;
+	margin-top: 5vh;
 }
 
 .contact-page .project-card .project-card-header {

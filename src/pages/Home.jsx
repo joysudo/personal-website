@@ -14,7 +14,7 @@ const Home = () => {
 			</div>
 			<div className="info-section">
 				<div className="info-text">
-					<p>I’m a  coder, organizer, and advocate with an interest in making things happen.</p>
+					<p>I’m a <b>coder</b>, <b>organizer</b>, and <b>advocate</b> with an interest in making things happen.</p>
 					<p>My biggest strength is identifying problems and doing something about them. That drive has let me make technical projects…</p>
 					<div className="info-cards">
 						<ProjectCard project={ProjectData.coding[2]}/>
