@@ -1,12 +1,12 @@
 export const ProjectData = {
     coding: [
         {
-            title: "Joy's Personal Website",
+            title: "Personal Website",
             category: "coding",
             shortDescription: "Personal site built in React.",
             fullDescription: [
-                "I initially made this website in order to get free fudge. But it's also something I've been wanting to do for a while (if you search 'resume' in my files, you'll find 30 copies of the same CV). Just for my own reference, I thought it would be fun to have a database of most of the projects I've done.", 
-                "This thing is built in React—really a pretty straightforward process! It took me around eight hours of coding, according to Hackatime, and I'd estimate one hour on Figma. Would recommend for any other students during a rainy day off school."
+                "I initially made this website in order to get free fudge. But it's also something I've been wanting to do for a while. (If you search 'resume' in my files, you'll find 30 copies of the same CV.) Just for my own reference, I thought it would be fun to have a database of most of the projects I've done.", 
+                "This thing is built in React. Most parts were pretty straightforward process, though I tried to go no-AI on this one. It took me around fourteen hours of coding, according to Hackatime, and I'd estimate one hour on Figma. For reference, I thought this would take five. I'm happy I made the design so modular, though, so most commits should just be edits to the ProjectData object from here on out."
             ],
             date: "December 2025",
             images: ["/card_images/personalsite1.png", "/card_images/personalsite2.png"]
