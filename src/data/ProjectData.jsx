@@ -5,8 +5,9 @@ export const ProjectData = {
             category: "coding",
             shortDescription: "Personal site built in React.",
             fullDescription: [
-                "I initially made this website in order to get free fudge. But it's also something I've been wanting to do for a while. (If you search 'resume' in my files, you'll find 30 copies of the same CV.) Just for my own reference, I thought it would be fun to have a database of most of the projects I've done.", 
-                "This thing is built in React. Most parts were pretty straightforward process, though I tried to go no-AI on this one. It took me around fourteen hours of coding, according to Hackatime, and I'd estimate one hour on Figma. For reference, I thought this would take five. I'm happy I made the design so modular, though, so most commits should just be edits to the ProjectData object from here on out."
+                "I initially made this website in order to get free fudge, but it's also something I've been wanting to do for a while. (If you search 'resume' in my files, you'll find 30 copies of the same CV.) Just for my own reference, I thought it would be fun to have a database of most of the projects I've done.", 
+                "I think this project was most fun as a meditation on AI-free coding. Typing code at a computer is such a menial and enjoyable process. This was an ugly practice in React with a modular design.",
+                "Fun fact: the filmstrip on the landing page is exclusively CSS pseudoclasses. The strip itself isn't an image."
             ],
             date: "December 2025",
             images: ["/card_images/personalsite1.png", "/card_images/personalsite2.png"]
@@ -19,7 +20,7 @@ export const ProjectData = {
                 "I helped make Cattatime at a <b>Parthenon</b>: the largest all-girls high school hackathon in the world . I met my teammates (Kat and Kaylee!) after a chaotic few hours of navigating transit with a carry-on.",
                 "The app itself is a virtual pet. You can get coins to buy your cat accessories by tracking coding hours in <b>Hackatime</b>.",
                 "I built Cattatime's entire frontend (also handled the backend operation of getting data to save to a local JSON). Kat navigated the backend and Slack integration, while Kaylee drew our visuals. Because we used Electron to turn React into a desktop application, I think a web port would be pretty simple. That's my idea for a next step forward, although we've got plenty of hats to add and more virtual inflation to fix 🫠",
-                "It was a very sleep-deprived 36 hours, but I had tons of fun. Lots of love to my Parthy friends! And I think our eye bags paid off, with Cattatime earning <b>first place</b> ʕ·͡ᴥ·ʔ",
+                "It was a very sleep-deprived 36 hours, but I had tons of fun. Lots of love to my Parthy friends! And I think our eye bags paid off, with Cattatime earning <b>first place</b>.",
                 "<i>You can download Cattatime on the <a target='_blank' href='https://hackatime.hackclub.com/extensions'>official Hackatime extensions page</a>.</i>"
             ],
             date: "November 2025",
@@ -71,7 +72,7 @@ export const ProjectData = {
             category: "teaching",
             shortDescription: "Afterschool coding program in three middle schools.",
             fullDescription: [
-                "I worked with Pi515, a nonprofit in the Des Moines area. There, we created a coding curriculum (that we piloted in three middle schools!). For months, we prepped before entering schools, where I was lucky enough to be able to instruct.",
+                "One of the many projects I've worked on with Pi515, a nonprofit in the Des Moines area. We developed a coding curriculum, taught it across three middle schools, and tracked a 100% capstone project completion rate. For months, we prepped before entering schools, where I was lucky enough to be able to instruct.",
                 "I miss these kids unbelievably. If you were at a middle school I taught—reach out anytime."
             ],
             date: "February 2023 - May 2023",
@@ -82,9 +83,8 @@ export const ProjectData = {
             category: "teaching",
             shortDescription: "Free educational content for African American Studies.",
             fullDescription: [
-                "I started making videos for African American Studies for my friends. I didn't expect that I would be asked by other African American Studies students to make more videos for the next three months straight.", 
-                "Now, I'm in the middle of an accidental YouTuber arc. I'm also realizing that no one knows that 'Sucrates' is a pun. You know Socrates? <i>Su</i>-crates? My last name? I'm not just really into crates, I promise.",
-                "<i>You can watch my videos on <a target='_blank' href='https://www.youtube.com/@su.crates'>Youtube</a> or support them on my <a target='_blank' href='https://buymeacoffee.com/sucrates'>Buy Me a Coffee</a> page.</i>"
+                "I started making videos for African American Studies for my friends. I didn't expect that I would be asked by other African American Studies students to make more videos for the next three months straight. This is not an area where I have extensive domain expertise, although I'd love to learn more! All information is pulled from the Collegeboard CED.", 
+                "<i>You can watch my videos on <a target='_blank' href='https://www.youtube.com/@su.crates'>Youtube</a>.</i>"
             ],
             date: "September 2025 - Present",
             images: ["/card_images/sucrates.jpg"]
@@ -99,17 +99,6 @@ export const ProjectData = {
             ],
             date: "February - July 2024",
             images: ["/card_images/girlswhocode.png"]
-        },
-        {
-            title: "Research Paper Editing Services",
-            category: "teaching",
-            shortDescription: "Editing research papers for PhD candidates.",
-            fullDescription: [
-                "I've done a lot of weird things for cash—audited programs, pitched a <a target='_blank' href='https://www.businessrecord.com/pi515-celebrates-girls-entrepreneurship-summit-honors-john-pappajohn/'>startup</a>, published <a target='_blank' href='http://alocasia.org/2022/12/21/joy-su-fertilizer/'>writing</a>, and more. As far as side gigs go, then, this one isn't that 'out there.' My newest inpromptu profession has been editing research papers for Chinese PhD students.",
-                "Through a working relationship with a professor at a top Chinese university, I've comprehensively edited ~3-4 research papers thus far. It's a stark shift from my previous experience (editing for a <a target='_blank' href='https://www.polyphonylit.org/EditorBiosV2/su/joy-su'>literary magazine</a> and reviewing college essays), but it's a jump I feel comfortable making. It's also a fun way to keep up with new developments within the scientific sphere."
-            ],
-            date: "July 2024",
-            images: ["/card_images/phdpaper.png"]
         }
     ], 
     events: [
